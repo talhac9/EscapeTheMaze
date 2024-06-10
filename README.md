@@ -26,12 +26,12 @@ each row of this grid is the width of the maze.
 For the rest of the file, R is any of the following characters: ’s’, ’x’, or ’o’. H could be ’w’, ’c’, or a digit
 ’0’, ’1’, ... ’9’. V could be ’c’, ’w’, or a digit ’0’, ’1’, ... ’9’. W must be ’w’. The meaning of the above
 characters is as follows:
- ’s’: entrance to the maze
- ’x’: exit of the maze
- ’o’: room
- ’c’: corridor
- ’w’: wall
- ’0’, ’1’, ... ’9’: door that to be opened requires the number of coins specified by the digit; so ’0’
+- ’s’: entrance to the maze
+- ’x’: exit of the maze
+- ’o’: room
+- ’c’: corridor
+- ’w’: wall
+- ’0’, ’1’, ... ’9’: door that to be opened requires the number of coins specified by the digit; so ’0’
 represents a door that does not need any coins to be opened, ’1’ represents a door that requires 1 coin,
 and so on.
 There is only one entrance and one exit, and each line of the file (except the first four lines) must have the
